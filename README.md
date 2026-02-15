@@ -138,7 +138,7 @@ A modular, production-style AI assistant architecture demonstrating:
 1. RAG implementation
 2. Safe LLM deployment
 3. Semantic retrieval
-4. AI system design for regulated industries
+
 
 
 
