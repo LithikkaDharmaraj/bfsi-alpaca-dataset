@@ -1,0 +1,1017 @@
+[
+  {
+    "instruction": "Check personal loan eligibility.",
+    "input": "Monthly income: \u20b9X. Existing EMI: \u20b9A.",
+    "output": "Based on the provided income and existing EMI, you may be eligible for a personal loan. Generally, total EMIs should not exceed [X-Y]% of monthly income. Final eligibility is subject to credit score, employment verification, and bank policy."
+  },
+  {
+    "instruction": "Check personal loan eligibility.",
+    "input": "Monthly income: \u20b9Y. Existing EMI: \u20b9B.",
+    "output": "With a monthly income of \u20b9Y and current EMI obligations of \u20b9B, you may qualify for a personal loan depending on your credit score and repayment history. Final approval is subject to internal credit assessment."
+  },
+  {
+    "instruction": "Check personal loan eligibility.",
+    "input": "Monthly income: \u20b9Z. Existing EMI: \u20b9C.",
+    "output": "Your current EMI obligations are relatively high compared to your income. Eligibility may be limited. A detailed credit evaluation and debt-to-income assessment will determine final approval."
+  },
+  {
+    "instruction": "Provide home loan application status.",
+    "input": "Application ID: HL[ID]",
+    "output": "For real-time updates on your home loan application, please log in to the official customer portal or contact customer support. This assistant does not have access to live application status systems."
+  },
+  {
+    "instruction": "Provide home loan application status.",
+    "input": "Application ID: HL[ID]",
+    "output": "Application status information is available through the bank\u2019s official tracking portal. This assistant cannot access individual application records."
+  },
+  {
+    "instruction": "Provide home loan application status.",
+    "input": "Application ID: HL[ID]",
+    "output": "To check your current loan application status, please refer to the official bank portal or contact customer care. This assistant does not retrieve real-time customer data."
+  },
+  {
+    "instruction": "Explain personal loan processing time.",
+    "input": "Loan type: Personal loan",
+    "output": "Personal loan processing typically takes [X-Y] working days, subject to document verification and credit assessment. Processing time may vary based on bank policy."
+  },
+  {
+    "instruction": "Explain home loan processing time.",
+    "input": "Loan type: Home loan",
+    "output": "Home loan processing generally takes [X-Y] working days, as it involves credit checks, income verification, and property valuation."
+  },
+  {
+    "instruction": "Explain education loan processing time.",
+    "input": "Loan type: Education loan",
+    "output": "Education loan processing may take [X-Y] working days depending on documentation completeness and institutional verification."
+  },
+  {
+    "instruction": "Provide details of loan foreclosure charges.",
+    "input": "Loan type: Personal loan",
+    "output": "Foreclosure charges may apply if the loan is closed before the agreed tenure. Charges vary by lender and loan type. Please refer to your loan agreement for exact terms."
+  },
+  {
+    "instruction": "Provide details of loan foreclosure charges.",
+    "input": "Loan type: Home loan (floating rate)",
+    "output": "As per regulatory guidelines, floating rate home loans may not attract foreclosure charges for individual borrowers. Please verify specific terms in your sanction letter."
+  },
+  {
+    "instruction": "Provide details of loan foreclosure charges.",
+    "input": "Loan type: Business loan",
+    "output": "Business loans may attract foreclosure penalties depending on the contractual agreement. Charges are specified in the loan documentation."
+  },
+  {
+    "instruction": "Explain prepayment penalty.",
+    "input": "Loan type: Personal loan",
+    "output": "Prepayment penalty may apply if part of the outstanding loan is paid before the due date. The penalty percentage depends on bank policy and loan agreement terms."
+  },
+  {
+    "instruction": "Explain prepayment penalty.",
+    "input": "Loan type: Home loan (fixed rate)",
+    "output": "Fixed rate home loans may attract prepayment charges. The exact percentage is outlined in your loan agreement."
+  },
+  {
+    "instruction": "Explain prepayment penalty.",
+    "input": "Loan type: Home loan (floating rate)",
+    "output": "Floating rate home loans for individual borrowers may not attract prepayment penalties, subject to applicable regulations."
+  },
+  {
+    "instruction": "Explain difference between fixed and floating interest rate.",
+    "input": "Loan type: Home loan",
+    "output": "A fixed interest rate remains constant throughout the tenure, while a floating rate may change based on market conditions. The choice depends on your risk preference."
+  },
+  {
+    "instruction": "Explain difference between fixed and floating interest rate.",
+    "input": "Loan type: Personal loan",
+    "output": "Fixed rates provide predictable EMIs, whereas floating rates fluctuate based on benchmark rates. Terms vary by lender."
+  },
+  {
+    "instruction": "Calculate EMI details.",
+    "input": "Loan amount: \u20b9[loan_amount]. Interest rate: [rate]%. Tenure: [N] years.",
+    "output": "EMI is calculated using the standard reducing balance formula. For precise figures, please use the official EMI calculator or consult your lender. The final EMI may vary depending on compounding method and bank policy."
+  },
+  {
+    "instruction": "Calculate EMI details.",
+    "input": "Loan amount: \u20b9[loan_amount]. Interest rate: [rate]%. Tenure: [N] years.",
+    "output": "EMI is calculated using the standard reducing balance method based on principal, interest rate, and tenure. For exact figures, please refer to the official EMI calculator or contact your lender."
+  },
+  {
+    "instruction": "Explain loan tenure options.",
+    "input": "Loan type: Personal loan",
+    "output": "Personal loans typically offer tenure ranging from 1 to [N] years. Longer tenure reduces EMI but increases total interest payable."
+  },
+  {
+    "instruction": "Explain loan tenure options.",
+    "input": "Loan type: Home loan",
+    "output": "Home loan tenure may range from 5 to [N] years depending on eligibility and age criteria."
+  },
+  {
+    "instruction": "Explain documents required for personal loan.",
+    "input": "Employment type: Salaried",
+    "output": "Required documents typically include identity proof, address proof, income proof, and bank statements. Final requirements depend on lender policy."
+  },
+  {
+    "instruction": "Explain documents required for personal loan.",
+    "input": "Employment type: Self-employed",
+    "output": "Self-employed applicants may need to provide income tax returns, business proof, bank statements, and identity documentation."
+  },
+  {
+    "instruction": "Provide information on loan disbursement timeline.",
+    "input": "Loan type: Personal loan",
+    "output": "Loan disbursement generally occurs within [X-Y] working days after final approval and agreement signing."
+  },
+  {
+    "instruction": "Provide information on loan disbursement timeline.",
+    "input": "Loan type: Home loan",
+    "output": "Home loan disbursement depends on property stage and documentation completion. It may occur in phases."
+  },
+  {
+    "instruction": "Explain the impact of a low credit score on loan approval.",
+    "input": "Credit score: [low]",
+    "output": "A lower credit score may affect eligibility or result in higher interest rates. Approval is subject to the lender's credit assessment criteria."
+  },
+  {
+    "instruction": "Explain impact of a high credit score on loan approval.",
+    "input": "Credit score: [high]",
+    "output": "A higher credit score may improve eligibility and help secure competitive interest rates, subject to lender approval."
+  },
+  {
+    "instruction": "Explain loan balance transfer process.",
+    "input": "Loan type: Home loan",
+    "output": "Loan balance transfer allows you to shift your outstanding loan to another lender offering better terms. Processing involves credit assessment and documentation."
+  },
+  {
+    "instruction": "Explain part-payment facility.",
+    "input": "Loan type: Personal loan",
+    "output": "Part-payment allows you to repay a portion of the principal before tenure completion. Charges, if any, depend on your loan agreement."
+  },
+  {
+    "instruction": "Explain moratorium facility.",
+    "input": "Loan type: Home loan",
+    "output": "A moratorium provides temporary relief from EMI payments under specific conditions. Interest may continue to accrue during this period."
+  },
+  {
+    "instruction": "Explain loan restructuring.",
+    "input": "Loan type: Business loan",
+    "output": "Loan restructuring involves modifying repayment terms to ease financial burden. Approval depends on lender evaluation."
+  },
+  {
+    "instruction": "Explain what happens if EMI is missed.",
+    "input": "Loan type: Personal loan",
+    "output": "Missing an EMI may attract late fees and impact credit score. It is advisable to contact the lender immediately."
+  },
+  {
+    "instruction": "Explain foreclosure process.",
+    "input": "Loan type: Home loan",
+    "output": "Foreclosure requires submitting a written request and paying outstanding principal with applicable charges. Confirmation is provided after closure."
+  },
+  {
+    "instruction": "Explain interest calculation method.",
+    "input": "Loan type: Personal loan",
+    "output": "Interest is typically calculated on a reducing balance basis. The outstanding principal reduces with each EMI."
+  },
+  {
+    "instruction": "Explain sanction letter meaning.",
+    "input": "Loan type: Home loan",
+    "output": "A sanction letter confirms conditional approval of your loan, subject to documentation and compliance verification."
+  },
+  {
+    "instruction": "Explain loan rejection reasons.",
+    "input": "Loan type: Personal loan",
+    "output": "Loan rejection may occur due to low credit score, high debt ratio, insufficient income, or incomplete documentation."
+  },
+  {
+    "instruction": "Explain co-applicant role.",
+    "input": "Loan type: Home loan",
+    "output": "A co-applicant shares repayment responsibility and may improve loan eligibility."
+  },
+  {
+    "instruction": "Explain guarantor requirement.",
+    "input": "Loan type: Education loan",
+    "output": "A guarantor may be required to provide additional repayment assurance based on lender assessment."
+  },
+  {
+    "instruction": "Explain fixed rate advantage.",
+    "input": "Loan type: Home loan",
+    "output": "Fixed rates provide EMI stability and protection against market fluctuations."
+  },
+  {
+    "instruction": "Explain floating rate advantage.",
+    "input": "Loan type: Home loan",
+    "output": "Floating rates may benefit borrowers if market interest rates decline."
+  },
+  {
+    "instruction": "Explain processing fee.",
+    "input": "Loan type: Personal loan",
+    "output": "Processing fee is a one-time charge collected for loan application evaluation. The amount varies by lender."
+  },
+  {
+    "instruction": "Explain top-up loan eligibility.",
+    "input": "Loan type: Home loan",
+    "output": "Top-up loans may be available to existing borrowers with good repayment history and sufficient credit profile."
+  },
+  {
+    "instruction": "Explain EMI holiday.",
+    "input": "Loan type: Personal loan",
+    "output": "EMI holiday may be offered under special schemes. Interest may continue to accrue during the holiday period."
+  },
+  {
+    "instruction": "Explain loan amortization schedule.",
+    "input": "Loan type: Home loan",
+    "output": "An amortization schedule shows the breakdown of principal and interest components for each EMI."
+  },
+  {
+    "instruction": "Explain how to close loan account.",
+    "input": "Loan type: Personal loan",
+    "output": "To close your loan, request a foreclosure statement, clear dues, and obtain a closure confirmation letter."
+  },
+  {
+    "instruction": "Explain difference between secured and unsecured loan.",
+    "input": "Loan type: General inquiry",
+    "output": "Secured loans require collateral, while unsecured loans are granted based on creditworthiness without asset security."
+  },
+  {
+    "instruction": "Explain loan eligibility age criteria.",
+    "input": "Loan type: Home loan",
+    "output": "Eligibility age typically ranges from 21 to 60\u2013[N] years at loan maturity, subject to lender policy."
+  },
+  {
+    "instruction": "Explain loan agreement terms importance.",
+    "input": "Loan type: Personal loan",
+    "output": "The loan agreement outlines interest rates, penalties, charges, and repayment terms. It is important to review before acceptance."
+  },
+  {
+    "instruction": "Request credit limit increase.",
+    "input": "Current limit: \u20b9[amount]. Monthly income: \u20b9[amount].",
+    "output": "Credit limit increase requests are subject to income verification, repayment history, and internal credit assessment. You may submit a formal request through the official portal."
+  },
+  {
+    "instruction": "Request credit limit increase.",
+    "input": "Current limit: \u20b9[amount]. Card usage: [high]% regularly.",
+    "output": "A credit limit increase may be considered based on consistent repayment history and credit profile. Approval depends on internal review."
+  },
+  {
+    "instruction": "Request credit limit increase.",
+    "input": "Customer has maintained timely payments for [N] months.",
+    "output": "Customers with a strong repayment record may be eligible for a credit limit enhancement. Final approval is subject to credit evaluation."
+  },
+  {
+    "instruction": "Explain late payment fee.",
+    "input": "Credit card bill unpaid after due date.",
+    "output": "If payment is not received by the due date, a late payment fee may be applied as per the card agreement. The exact fee depends on the outstanding amount."
+  },
+  {
+    "instruction": "Explain late payment fee.",
+    "input": "Minimum due not paid.",
+    "output": "Failure to pay at least the minimum amount due may result in late fees and finance charges, and could impact your credit score."
+  },
+  {
+    "instruction": "Explain late payment fee impact.",
+    "input": "Payment delayed by [N] days.",
+    "output": "A delayed payment may attract late charges and interest on the outstanding balance. It may also affect your credit history."
+  },
+  {
+    "instruction": "Explain minimum amount due.",
+    "input": "Total bill: \u20b9B.",
+    "output": "The minimum amount due is a small percentage of your total outstanding balance. Paying only the minimum avoids late fees but interest will continue on the remaining amount."
+  },
+  {
+    "instruction": "Explain minimum amount due consequences.",
+    "input": "Customer pays only minimum due every month.",
+    "output": "Paying only the minimum due results in interest charges on the unpaid balance, increasing the total repayment amount over time."
+  },
+  {
+    "instruction": "Explain minimum due calculation.",
+    "input": "Outstanding balance present.",
+    "output": "The minimum due is calculated as a percentage of the total outstanding along with applicable charges and taxes."
+  },
+  {
+    "instruction": "Explain credit card interest calculation.",
+    "input": "Outstanding balance after due date.",
+    "output": "Interest is charged on the outstanding balance if full payment is not made by the due date. The rate and method are specified in the card agreement."
+  },
+  {
+    "instruction": "Explain interest-free period.",
+    "input": "Purchase made during billing cycle.",
+    "output": "An interest-free period is available if the full outstanding amount is paid by the due date. If not, finance charges may apply."
+  },
+  {
+    "instruction": "Explain finance charges.",
+    "input": "Partial payment made.",
+    "output": "Finance charges are applied on the unpaid balance after the due date. The rate is mentioned in the card terms and conditions."
+  },
+  {
+    "instruction": "Block lost credit card.",
+    "input": "Card misplaced.",
+    "output": "If your card is lost or stolen, please block it immediately through the official mobile app or customer care. This assistant does not block cards directly."
+  },
+  {
+    "instruction": "Block stolen credit card.",
+    "input": "Unauthorized transaction noticed.",
+    "output": "If you suspect unauthorized transactions, block your card immediately via official channels and report the issue to customer support."
+  },
+  {
+    "instruction": "Explain card reissue process.",
+    "input": "Card blocked due to loss.",
+    "output": "After blocking your card, you may request a replacement through the official portal. Reissue charges may apply as per policy."
+  },
+  {
+    "instruction": "Explain reward points earning.",
+    "input": "Purchase made using credit card.",
+    "output": "Reward points are earned based on eligible transactions as per the card\u2019s rewards program. Points calculation varies by card type."
+  },
+  {
+    "instruction": "Explain reward points redemption.",
+    "input": "Customer wants to redeem points.",
+    "output": "Reward points can be redeemed through the official rewards portal for eligible products, vouchers, or statement credits."
+  },
+  {
+    "instruction": "Explain reward points expiry.",
+    "input": "Reward points earned last year.",
+    "output": "Reward points may have an expiry period depending on the card program. Please review your rewards terms for details."
+  },
+  {
+    "instruction": "Explain cashback benefit.",
+    "input": "Card offers cashback on groceries.",
+    "output": "Cashback offers are applicable on eligible transactions and are credited as per the program terms and conditions."
+  },
+  {
+    "instruction": "Explain over-limit charges.",
+    "input": "Spending exceeded credit limit.",
+    "output": "If transactions exceed your approved credit limit, over-limit charges may apply subject to card agreement terms."
+  },
+  {
+    "instruction": "Explain billing cycle.",
+    "input": "Customer confused about statement date.",
+    "output": "The billing cycle is the period during which transactions are recorded. The statement is generated at the end of each billing cycle."
+  },
+  {
+    "instruction": "Explain statement generation.",
+    "input": "Monthly statement not received.",
+    "output": "Credit card statements are generated monthly and shared through registered email or official app access."
+  },
+  {
+    "instruction": "Explain EMI conversion on credit card.",
+    "input": "High-value purchase made.",
+    "output": "Eligible transactions may be converted into EMIs subject to bank policy and applicable interest rates."
+  },
+  {
+    "instruction": "Explain cash advance charges.",
+    "input": "Cash withdrawn using credit card.",
+    "output": "Cash advances attract finance charges from the date of withdrawal along with applicable transaction fees."
+  },
+  {
+    "instruction": "Explain international transaction fee.",
+    "input": "Purchase made in foreign currency.",
+    "output": "International transactions may attract foreign currency markup charges as per the card agreement."
+  },
+  {
+    "instruction": "Explain credit card annual fee.",
+    "input": "Annual membership fee charged.",
+    "output": "Annual fees are charged as per the card type. Fee waivers may apply based on spending criteria."
+  },
+  {
+    "instruction": "Explain card upgrade process.",
+    "input": "Customer wants premium card.",
+    "output": "Card upgrades are subject to eligibility criteria including income and credit profile."
+  },
+  {
+    "instruction": "Explain supplementary card feature.",
+    "input": "Family member needs card access.",
+    "output": "Supplementary cards can be issued for family members subject to primary cardholder approval."
+  },
+  {
+    "instruction": "Explain dispute transaction process.",
+    "input": "Unauthorized charge noticed.",
+    "output": "Disputed transactions must be reported through official channels. The bank will investigate as per dispute resolution policy."
+  },
+  {
+    "instruction": "Explain credit utilization impact.",
+    "input": "Customer using [very_high]% of limit.",
+    "output": "High credit utilization may negatively impact your credit score. Maintaining lower usage may improve credit health."
+  },
+  {
+    "instruction": "Explain EMI breakdown.",
+    "input": "Loan type: Home loan",
+    "output": "An EMI consists of two components: principal repayment and interest payment. In the initial phase of the loan, a larger portion goes toward interest, and gradually the principal component increases over time."
+  },
+  {
+    "instruction": "Explain EMI breakdown.",
+    "input": "Loan type: Personal loan",
+    "output": "Each EMI includes repayment of principal and applicable interest calculated on the outstanding balance. The proportion of each component changes over the tenure."
+  },
+  {
+    "instruction": "Provide EMI component details.",
+    "input": "Customer wants to understand principal vs interest portion.",
+    "output": "The principal portion reduces the outstanding loan amount, while the interest portion is the cost of borrowing. The amortization schedule provides a detailed monthly breakup."
+  },
+  {
+    "instruction": "Explain auto debit failure.",
+    "input": "EMI auto-debit failed due to insufficient balance.",
+    "output": "If auto-debit fails due to insufficient funds, the EMI may remain unpaid and late charges may apply as per loan agreement. It is advisable to make payment immediately through official channels."
+  },
+  {
+    "instruction": "Explain auto debit failure impact.",
+    "input": "EMI not deducted on due date.",
+    "output": "Failure of auto-debit may result in delayed payment reporting and possible penalty charges. Please contact your lender to regularize the payment."
+  },
+  {
+    "instruction": "What to do after EMI bounce?",
+    "input": "Bank returned EMI transaction.",
+    "output": "If your EMI transaction is returned, arrange funds and complete payment through approved payment methods. Additional charges, if any, will depend on lender policy."
+  },
+  {
+    "instruction": "Explain EMI rescheduling.",
+    "input": "Customer facing temporary financial difficulty.",
+    "output": "EMI rescheduling allows modification of repayment terms subject to lender approval. Eligibility depends on repayment history and internal assessment."
+  },
+  {
+    "instruction": "Request EMI date change.",
+    "input": "Customer wants due date shifted.",
+    "output": "Change of EMI due date may be permitted subject to bank policy and eligibility criteria. Please submit a formal request through official channels."
+  },
+  {
+    "instruction": "Explain EMI extension impact.",
+    "input": "Customer wants longer tenure.",
+    "output": "Extending loan tenure may reduce EMI amount but increase total interest payable over time. Approval depends on lender evaluation."
+  },
+  {
+    "instruction": "Explain part payment impact on EMI.",
+    "input": "Customer planning partial prepayment.",
+    "output": "Part payment reduces the outstanding principal. Depending on lender policy, it may reduce EMI amount or shorten the loan tenure."
+  },
+  {
+    "instruction": "Explain part payment charges.",
+    "input": "Loan type: Personal loan",
+    "output": "Part-payment charges, if applicable, are defined in your loan agreement. Please refer to official documentation for exact terms."
+  },
+  {
+    "instruction": "Explain amortization schedule.",
+    "input": "Loan type: Home loan",
+    "output": "An amortization schedule outlines each EMI with a breakdown of principal and interest components across the loan tenure."
+  },
+  {
+    "instruction": "Request amortization statement.",
+    "input": "Customer wants loan repayment schedule.",
+    "output": "You may download your amortization schedule from the official loan portal or request it through customer support."
+  },
+  {
+    "instruction": "Explain EMI calculation method.",
+    "input": "Loan amount provided.",
+    "output": "EMI is calculated using the standard reducing balance formula based on principal, interest rate, and tenure. For precise figures, please use the official EMI calculator."
+  },
+  {
+    "instruction": "Explain advance EMI payment.",
+    "input": "Customer wants to pay next month's EMI early.",
+    "output": "Advance EMI payments may be accepted depending on lender policy. Early payments may reduce outstanding principal, subject to applicable terms."
+  },
+  {
+    "instruction": "Explain missed EMI consequences.",
+    "input": "Customer missed one EMI.",
+    "output": "Missing an EMI may attract late charges and affect your credit profile. It is recommended to clear dues promptly."
+  },
+  {
+    "instruction": "Explain multiple EMI defaults.",
+    "input": "Customer missed two consecutive EMIs.",
+    "output": "Multiple missed EMIs may lead to penalty charges and negative credit reporting. Continued default could result in recovery actions as per agreement."
+  },
+  {
+    "instruction": "Explain EMI holiday feature.",
+    "input": "Customer requesting temporary relief.",
+    "output": "An EMI holiday may be offered under special schemes. Interest may continue to accrue during the holiday period."
+  },
+  {
+    "instruction": "Explain pre-EMI concept.",
+    "input": "Loan under construction property.",
+    "output": "Pre-EMI refers to payment of interest only on the disbursed amount before full loan disbursement. Regular EMI begins after full disbursement."
+  },
+  {
+    "instruction": "Explain step-up EMI option.",
+    "input": "Customer income expected to increase.",
+    "output": "Step-up EMI plans allow lower initial EMIs that increase over time. Availability depends on lender policy and eligibility."
+  },
+  {
+    "instruction": "Explain step-down EMI option.",
+    "input": "Customer expecting lower income in future.",
+    "output": "Step-down EMI structures allow higher initial payments and reduced EMIs later. Approval depends on lender terms."
+  },
+  {
+    "instruction": "Explain EMI deduction timing.",
+    "input": "Customer confused about debit date.",
+    "output": "EMI is typically deducted on the agreed due date. If the due date falls on a non-working day, deduction may occur on the next working day."
+  },
+  {
+    "instruction": "Explain NACH mandate requirement.",
+    "input": "Customer setting up auto debit.",
+    "output": "A NACH mandate authorizes automatic EMI deduction from your bank account. It ensures timely repayment as per agreement."
+  },
+  {
+    "instruction": "Explain loan account statement.",
+    "input": "Customer wants EMI history.",
+    "output": "Loan account statements provide a record of EMI payments, outstanding balance, and transaction history. They can be accessed through official channels."
+  },
+  {
+    "instruction": "Explain impact of early full repayment.",
+    "input": "Customer planning to close loan early.",
+    "output": "Early full repayment may reduce future interest liability. Foreclosure charges, if applicable, depend on your loan agreement."
+  },
+  {
+    "instruction": "Check account balance.",
+    "input": "Customer wants savings account balance.",
+    "output": "For security reasons, please log in to the official banking app or internet banking portal to view your account balance. This assistant does not access real-time account data."
+  },
+  {
+    "instruction": "Provide mini statement.",
+    "input": "Customer requests last 5 transactions.",
+    "output": "Mini statements can be accessed securely through the official mobile app, internet banking, or ATM services. This assistant cannot retrieve live transaction records."
+  },
+  {
+    "instruction": "Explain savings account features.",
+    "input": "Customer inquiring about benefits.",
+    "output": "Savings accounts allow secure deposit of funds, interest earnings on balance, and access to digital banking services. Features may vary by bank policy."
+  },
+  {
+    "instruction": "Explain current account features.",
+    "input": "Customer runs a business.",
+    "output": "Current accounts are designed for business transactions and typically offer higher transaction limits with minimal restrictions on withdrawals."
+  },
+  {
+    "instruction": "Explain difference between savings and current account.",
+    "input": "General inquiry.",
+    "output": "Savings accounts are meant for personal use with interest earnings, while current accounts are designed for business transactions and may not offer interest."
+  },
+  {
+    "instruction": "Report unauthorized transaction.",
+    "input": "Customer noticed unknown debit.",
+    "output": "If you notice an unauthorized transaction, report it immediately through official customer support channels. Timely reporting helps initiate investigation and dispute resolution."
+  },
+  {
+    "instruction": "Explain transaction pending status.",
+    "input": "UPI payment showing pending.",
+    "output": "A pending transaction may occur due to network delays or processing time. If the status does not update within the expected timeframe, please contact your bank."
+  },
+  {
+    "instruction": "Explain failed transaction.",
+    "input": "Amount debited but transaction failed.",
+    "output": "If funds were debited but the transaction failed, the amount is typically reversed within standard processing timelines. Please check with your bank for confirmation."
+  },
+  {
+    "instruction": "Request account statement.",
+    "input": "Customer wants 6-month statement.",
+    "output": "Account statements can be downloaded securely through internet banking or requested via customer support."
+  },
+  {
+    "instruction": "Explain account freeze reason.",
+    "input": "Customer unable to transact.",
+    "output": "An account may be temporarily frozen due to regulatory compliance checks, suspicious activity, or documentation issues. Please contact your bank for clarification."
+  },
+  {
+    "instruction": "Explain KYC update requirement.",
+    "input": "Customer received KYC notification.",
+    "output": "KYC updates are required periodically to comply with regulatory guidelines. Please submit required documents through official channels."
+  },
+  {
+    "instruction": "Explain minimum balance requirement.",
+    "input": "Savings account holder inquiry.",
+    "output": "Some accounts require maintaining a minimum balance as per bank policy. Non-maintenance may attract charges."
+  },
+  {
+    "instruction": "Explain overdraft facility.",
+    "input": "Customer asking about overdraft.",
+    "output": "An overdraft facility allows you to withdraw more than your available balance up to an approved limit. Approval and charges depend on bank policy."
+  },
+  {
+    "instruction": "Explain cheque bounce charges.",
+    "input": "Cheque returned due to insufficient funds.",
+    "output": "If a cheque is returned due to insufficient balance, penalty charges may apply as per bank policy."
+  },
+  {
+    "instruction": "Explain stop cheque request.",
+    "input": "Customer wants to stop issued cheque.",
+    "output": "Stop payment requests can be submitted through official banking channels before the cheque is processed."
+  },
+  {
+    "instruction": "Explain fund transfer modes.",
+    "input": "Customer asking about NEFT, RTGS, IMPS.",
+    "output": "NEFT, RTGS, and IMPS are electronic fund transfer modes. Each has different transaction limits and processing timelines."
+  },
+  {
+    "instruction": "Explain UPI transaction limit.",
+    "input": "Customer wants to increase UPI limit.",
+    "output": "UPI transaction limits are defined by regulatory guidelines and bank policy. Limit enhancement may be subject to eligibility."
+  },
+  {
+    "instruction": "Explain nominee addition process.",
+    "input": "Savings account holder.",
+    "output": "A nominee can be added by submitting a formal request through official banking channels."
+  },
+  {
+    "instruction": "Explain joint account operation.",
+    "input": "Two account holders.",
+    "output": "Joint accounts may operate under 'Either or Survivor' or other operating instructions as defined during account opening."
+  },
+  {
+    "instruction": "Explain account closure process.",
+    "input": "Customer wants to close savings account.",
+    "output": "To close an account, submit a closure request form and clear any outstanding charges. Confirmation will be provided after processing."
+  },
+  {
+    "instruction": "Explain dormant account.",
+    "input": "No transactions for long period.",
+    "output": "An account may be marked dormant if no customer-initiated transactions occur for a specified period. Reactivation requires verification."
+  },
+  {
+    "instruction": "Explain SMS transaction alerts.",
+    "input": "Customer not receiving alerts.",
+    "output": "SMS alerts are sent to the registered mobile number for transactions. Please ensure your contact details are updated."
+  },
+  {
+    "instruction": "Explain debit card daily limit.",
+    "input": "Customer asking about withdrawal cap.",
+    "output": "Debit card daily limits vary based on card type and bank policy. Please refer to your card agreement."
+  },
+  {
+    "instruction": "Explain international debit card usage.",
+    "input": "Customer traveling abroad.",
+    "output": "International usage must be enabled for overseas transactions. Applicable foreign currency charges may apply as per policy."
+  },
+  {
+    "instruction": "Explain transaction dispute timeline.",
+    "input": "Customer filed complaint.",
+    "output": "Transaction disputes are investigated as per regulatory timelines. Resolution time may vary depending on case complexity."
+  },
+  {
+    "instruction": "Explain life insurance purpose.",
+    "input": "Customer asking about benefits.",
+    "output": "Life insurance provides financial protection to nominees in case of the policyholder\u2019s death, subject to policy terms and conditions."
+  },
+  {
+    "instruction": "Explain term insurance.",
+    "input": "Customer comparing policies.",
+    "output": "Term insurance provides life coverage for a specified period. It typically offers high coverage at relatively lower premiums compared to savings-linked plans."
+  },
+  {
+    "instruction": "Explain endowment plan.",
+    "input": "Customer seeking savings option.",
+    "output": "An endowment plan combines life coverage with savings benefits, offering maturity value if the policyholder survives the term, subject to policy terms."
+  },
+  {
+    "instruction": "Explain ULIP.",
+    "input": "Customer wants investment-linked insurance.",
+    "output": "A Unit Linked Insurance Plan (ULIP) combines life insurance with market-linked investment options. Returns depend on fund performance and market risks."
+  },
+  {
+    "instruction": "Explain health insurance coverage.",
+    "input": "Customer asking about hospitalization benefits.",
+    "output": "Health insurance covers medical expenses such as hospitalization, subject to policy inclusions, exclusions, and limits."
+  },
+  {
+    "instruction": "Explain pre-existing disease clause.",
+    "input": "Customer has prior medical condition.",
+    "output": "Pre-existing diseases may have a waiting period before coverage begins, as defined in the policy terms."
+  },
+  {
+    "instruction": "Explain waiting period in health insurance.",
+    "input": "New policy purchased.",
+    "output": "A waiting period is the duration during which certain claims are not admissible. The specific period depends on policy conditions."
+  },
+  {
+    "instruction": "Explain claim process for health insurance.",
+    "input": "Customer hospitalized.",
+    "output": "Claims may be processed through cashless or reimbursement mode. Documentation and hospital network eligibility determine the process."
+  },
+  {
+    "instruction": "Explain motor insurance coverage.",
+    "input": "Customer owns a car.",
+    "output": "Motor insurance provides coverage against vehicle damage, theft, or third-party liability, subject to policy type and terms."
+  },
+  {
+    "instruction": "Explain third-party motor insurance.",
+    "input": "Customer inquiry.",
+    "output": "Third-party motor insurance covers liabilities arising from injury or damage caused to others. It does not cover your own vehicle damage."
+  },
+  {
+    "instruction": "Explain comprehensive motor insurance.",
+    "input": "Customer comparing plans.",
+    "output": "Comprehensive motor insurance includes third-party liability and coverage for own vehicle damage, subject to policy inclusions."
+  },
+  {
+    "instruction": "Explain no claim bonus.",
+    "input": "Customer did not file claim last year.",
+    "output": "No Claim Bonus (NCB) is a discount on renewal premium for claim-free years, as per insurer policy."
+  },
+  {
+    "instruction": "Explain premium calculation factors.",
+    "input": "Life insurance inquiry.",
+    "output": "Premiums are calculated based on age, coverage amount, health condition, tenure, and underwriting assessment."
+  },
+  {
+    "instruction": "Explain sum assured.",
+    "input": "Life insurance policy.",
+    "output": "Sum assured is the guaranteed amount payable under the policy terms upon occurrence of the insured event."
+  },
+  {
+    "instruction": "Explain nominee role.",
+    "input": "Policyholder inquiry.",
+    "output": "A nominee is the person designated to receive policy benefits in case of the policyholder\u2019s demise."
+  },
+  {
+    "instruction": "Explain policy lapse.",
+    "input": "Premium not paid.",
+    "output": "If premiums are not paid within the grace period, the policy may lapse. Revival options depend on insurer guidelines."
+  },
+  {
+    "instruction": "Explain grace period.",
+    "input": "Premium due date passed.",
+    "output": "A grace period allows additional time after the due date to pay premium without policy termination, subject to policy terms."
+  },
+  {
+    "instruction": "Explain policy revival process.",
+    "input": "Policy lapsed recently.",
+    "output": "Policy revival may require payment of pending premiums and possible medical underwriting, subject to insurer approval."
+  },
+  {
+    "instruction": "Explain free look period.",
+    "input": "Customer wants to cancel new policy.",
+    "output": "The free look period allows cancellation within a specified number of days from policy receipt, subject to regulatory guidelines."
+  },
+  {
+    "instruction": "Explain claim rejection reasons.",
+    "input": "Customer claim declined.",
+    "output": "Claims may be rejected due to non-disclosure, policy exclusions, lapse status, or documentation issues, as per insurer terms."
+  },
+  {
+    "instruction": "Explain riders in insurance.",
+    "input": "Customer wants additional benefits.",
+    "output": "Riders are optional add-ons that enhance coverage, such as critical illness or accidental benefit riders, subject to additional premium."
+  },
+  {
+    "instruction": "Explain maternity coverage in health insurance.",
+    "input": "Customer planning family.",
+    "output": "Maternity coverage may be available in selected health policies, often subject to waiting periods and coverage limits."
+  },
+  {
+    "instruction": "Explain cashless hospitalization.",
+    "input": "Customer admitted in network hospital.",
+    "output": "Cashless hospitalization allows treatment at network hospitals without upfront payment, subject to approval and policy limits."
+  },
+  {
+    "instruction": "Explain travel insurance coverage.",
+    "input": "Customer traveling abroad.",
+    "output": "Travel insurance typically covers medical emergencies, trip cancellation, and baggage loss, subject to policy inclusions."
+  },
+  {
+    "instruction": "Explain insurance claim settlement timeline.",
+    "input": "Customer filed claim.",
+    "output": "Claim settlement timelines vary depending on documentation completeness and regulatory requirements. Insurers process claims as per applicable guidelines."
+  },
+  {
+    "instruction": "Report phishing email.",
+    "input": "Customer received suspicious banking email.",
+    "output": "Do not click on any links or share personal information. Report the email through official bank fraud reporting channels immediately."
+  },
+  {
+    "instruction": "Report suspicious SMS.",
+    "input": "Message asking for OTP received.",
+    "output": "Never share your OTP with anyone. Banks do not request OTPs via calls or messages. Report the SMS through official support."
+  },
+  {
+    "instruction": "Explain OTP security importance.",
+    "input": "Customer unsure about sharing OTP.",
+    "output": "OTP is a confidential authentication code. It should never be shared with anyone, including individuals claiming to represent the bank."
+  },
+  {
+    "instruction": "Report unauthorized account access.",
+    "input": "Customer suspects login from unknown device.",
+    "output": "Immediately change your passwords and report the incident through official customer support channels."
+  },
+  {
+    "instruction": "Explain account takeover fraud.",
+    "input": "General inquiry.",
+    "output": "Account takeover fraud occurs when unauthorized individuals gain access to your account credentials. Strong passwords and multi-factor authentication help reduce risk."
+  },
+  {
+    "instruction": "Report debit card fraud.",
+    "input": "Unauthorized ATM withdrawal.",
+    "output": "Block your card immediately through official banking channels and file a fraud dispute request."
+  },
+  {
+    "instruction": "Report credit card fraud.",
+    "input": "Unknown online transaction.",
+    "output": "Block your card immediately and report the transaction for investigation through official customer service."
+  },
+  {
+    "instruction": "Explain SIM swap fraud.",
+    "input": "Customer heard about SIM fraud.",
+    "output": "SIM swap fraud involves unauthorized transfer of your mobile number to another SIM, enabling access to OTP-based services."
+  },
+  {
+    "instruction": "Explain safe online banking practices.",
+    "input": "Customer asking for tips.",
+    "output": "Use secure networks, enable multi-factor authentication, avoid sharing credentials, and monitor account statements regularly."
+  },
+  {
+    "instruction": "Explain malware risk.",
+    "input": "Customer clicked suspicious link.",
+    "output": "Malware may compromise personal data. Run a security scan and avoid entering banking credentials until your device is secured."
+  },
+  {
+    "instruction": "Report UPI fraud.",
+    "input": "Money debited without authorization.",
+    "output": "Report the incident immediately through official banking and UPI grievance channels."
+  },
+  {
+    "instruction": "Explain card skimming.",
+    "input": "Customer heard about ATM fraud.",
+    "output": "Card skimming involves copying card data using illegal devices at ATMs or POS terminals."
+  },
+  {
+    "instruction": "Explain two-factor authentication.",
+    "input": "Customer inquiry.",
+    "output": "Two-factor authentication adds an extra verification layer beyond password, enhancing account security."
+  },
+  {
+    "instruction": "Explain transaction alert importance.",
+    "input": "Customer considering disabling alerts.",
+    "output": "Transaction alerts help detect unauthorized activity promptly. It is recommended to keep alerts enabled."
+  },
+  {
+    "instruction": "Respond to request for another customer's data.",
+    "input": "Customer asking for friend's account balance.",
+    "output": "For privacy and security reasons, customer account information cannot be shared with third parties."
+  },
+  {
+    "instruction": "Reject request for hacking advice.",
+    "input": "User asking how to bypass bank security.",
+    "output": "I cannot assist with bypassing security systems. Please use banking services responsibly and within legal guidelines."
+  },
+  {
+    "instruction": "Explain strong password guidelines.",
+    "input": "Customer creating new password.",
+    "output": "Use a combination of letters, numbers, and special characters. Avoid easily guessable information such as birthdays."
+  },
+  {
+    "instruction": "Explain secure PIN practices.",
+    "input": "Customer asking about ATM PIN safety.",
+    "output": "Keep your PIN confidential and avoid sharing it. Do not write it down or store it in easily accessible locations."
+  },
+  {
+    "instruction": "Explain fraud investigation process.",
+    "input": "Customer reported suspicious transaction.",
+    "output": "Once reported, the bank investigates as per regulatory guidelines. Resolution timelines depend on case details."
+  },
+  {
+    "instruction": "Explain cyber insurance benefit.",
+    "input": "Customer asking about protection.",
+    "output": "Cyber insurance may provide financial protection against certain digital fraud risks, subject to policy terms."
+  },
+  {
+    "instruction": "Explain safe use of public Wi-Fi.",
+    "input": "Customer accessing banking app in caf\u00e9.",
+    "output": "Avoid conducting financial transactions over unsecured public Wi-Fi networks."
+  },
+  {
+    "instruction": "Explain social engineering fraud.",
+    "input": "Customer received urgent call from fake agent.",
+    "output": "Social engineering fraud involves manipulation to extract confidential information. Always verify through official channels."
+  },
+  {
+    "instruction": "Explain QR code fraud.",
+    "input": "Customer scanned unknown QR.",
+    "output": "Scanning unknown QR codes may initiate unintended payments. Verify source before scanning."
+  },
+  {
+    "instruction": "Explain identity theft risk.",
+    "input": "Customer concerned about data leak.",
+    "output": "Identity theft occurs when personal information is misused for fraudulent purposes. Monitor accounts regularly."
+  },
+  {
+    "instruction": "Explain how to file fraud complaint.",
+    "input": "Customer needs escalation.",
+    "output": "Fraud complaints can be filed through official customer care channels or grievance redressal mechanisms."
+  },
+  {
+    "instruction": "Explain fixed deposit features.",
+    "input": "Customer considering FD.",
+    "output": "A fixed deposit allows you to invest a lump sum amount for a fixed tenure at an agreed interest rate, subject to bank policy."
+  },
+  {
+    "instruction": "Explain recurring deposit.",
+    "input": "Customer wants monthly savings plan.",
+    "output": "A recurring deposit allows you to invest a fixed amount every month for a chosen tenure, earning interest as per bank terms."
+  },
+  {
+    "instruction": "Explain FD premature withdrawal.",
+    "input": "Customer needs funds before maturity.",
+    "output": "Premature withdrawal may be permitted, but interest may be recalculated and penalties may apply as per bank policy."
+  },
+  {
+    "instruction": "Explain FD auto-renewal option.",
+    "input": "Deposit nearing maturity.",
+    "output": "Auto-renewal reinvests the maturity amount for a new tenure at prevailing interest rates, unless other instructions are provided."
+  },
+  {
+    "instruction": "Explain FD interest payout options.",
+    "input": "Customer choosing payout frequency.",
+    "output": "Interest can be paid periodically or at maturity depending on the deposit type selected."
+  },
+  {
+    "instruction": "Explain tax-saving fixed deposit.",
+    "input": "Customer seeking tax benefits.",
+    "output": "Tax-saving fixed deposits may qualify for deductions under applicable tax laws and are subject to a mandatory lock-in period."
+  },
+  {
+    "instruction": "Explain cumulative vs non-cumulative FD.",
+    "input": "Customer comparing deposit types.",
+    "output": "Cumulative FDs compound interest and pay it at maturity, while non-cumulative FDs pay interest at regular intervals."
+  },
+  {
+    "instruction": "Explain recurring deposit missed installment.",
+    "input": "Customer skipped monthly RD payment.",
+    "output": "Missed installments may attract penalty charges or affect the maturity value, depending on bank policy."
+  },
+  {
+    "instruction": "Explain FD nomination facility.",
+    "input": "Customer adding nominee.",
+    "output": "A nominee can be added to receive the deposit proceeds in case of the depositor\u2019s demise, subject to documentation."
+  },
+  {
+    "instruction": "Explain FD interest calculation method.",
+    "input": "Customer asking how interest is calculated.",
+    "output": "Interest on fixed deposits is calculated based on principal amount, tenure, and applicable rate, compounded as per bank terms."
+  },
+  {
+    "instruction": "Explain difference between FD and RD.",
+    "input": "Customer unsure which to choose.",
+    "output": "A fixed deposit involves a one-time lump sum investment, whereas a recurring deposit involves periodic monthly contributions."
+  },
+  {
+    "instruction": "Explain FD lien marking.",
+    "input": "Customer applied for loan against FD.",
+    "output": "A lien marks the deposit as security against a loan. Withdrawal may not be permitted until the lien is released."
+  },
+  {
+    "instruction": "Explain loan against fixed deposit.",
+    "input": "Customer needs short-term funds.",
+    "output": "Loans against fixed deposits allow borrowing against the deposit value, subject to eligibility and bank policy."
+  },
+  {
+    "instruction": "Explain maturity proceeds handling.",
+    "input": "FD matured.",
+    "output": "At maturity, proceeds may be credited to the linked account or renewed based on customer instructions."
+  },
+  {
+    "instruction": "Explain mutual fund basics.",
+    "input": "Customer new to investing.",
+    "output": "Mutual funds pool money from investors to invest in diversified financial instruments managed by professional fund managers."
+  },
+  {
+    "instruction": "Explain SIP investment.",
+    "input": "Customer wants regular investment option.",
+    "output": "A Systematic Investment Plan (SIP) allows investing a fixed amount at regular intervals in mutual funds."
+  },
+  {
+    "instruction": "Explain risk in mutual funds.",
+    "input": "Customer concerned about losses.",
+    "output": "Mutual fund investments are subject to market risk. Returns depend on underlying asset performance."
+  },
+  {
+    "instruction": "Explain NAV in mutual funds.",
+    "input": "Customer saw NAV value.",
+    "output": "Net Asset Value (NAV) represents the per-unit value of a mutual fund based on its assets minus liabilities."
+  },
+  {
+    "instruction": "Explain diversification benefit.",
+    "input": "Customer exploring investment strategy.",
+    "output": "Diversification spreads investments across different assets to reduce overall portfolio risk."
+  },
+  {
+    "instruction": "Explain lock-in period in investments.",
+    "input": "Customer wants early withdrawal.",
+    "output": "Certain investment products have a lock-in period during which withdrawals are restricted, subject to product terms."
+  },
+  {
+    "instruction": "Explain capital gains tax.",
+    "input": "Customer redeemed investment.",
+    "output": "Capital gains tax may apply on profits earned from investments, subject to prevailing tax regulations."
+  },
+  {
+    "instruction": "Explain liquid funds.",
+    "input": "Customer seeking short-term parking option.",
+    "output": "Liquid funds invest in short-term debt instruments and are designed for relatively quick access to funds."
+  },
+  {
+    "instruction": "Explain PPF account.",
+    "input": "Customer interested in long-term savings.",
+    "output": "Public Provident Fund (PPF) is a government-backed long-term savings scheme offering tax benefits as per regulations."
+  },
+  {
+    "instruction": "Explain NPS.",
+    "input": "Customer planning retirement savings.",
+    "output": "National Pension System (NPS) is a retirement-oriented investment scheme regulated under applicable guidelines."
+  },
+  {
+    "instruction": "Explain investment KYC requirement.",
+    "input": "Customer opening investment account.",
+    "output": "KYC verification is mandatory before investing, in accordance with regulatory requirements."
+  }
+]

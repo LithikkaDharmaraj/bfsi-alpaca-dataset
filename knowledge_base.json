@@ -1,0 +1,50 @@
+{
+  "loans": {
+    "emi_breakdown": {
+      "description": "An EMI consists of principal and interest components.",
+      "details": "In the early stage of the loan, a larger portion goes toward interest. Over time, the principal component increases."
+    },
+    "interest_calculation": {
+      "method": "Reducing balance method",
+      "explanation": "Interest is calculated on the outstanding principal after each EMI payment."
+    },
+    "foreclosure": {
+      "personal_loan": "Foreclosure charges may apply depending on loan agreement terms.",
+      "home_loan_floating": "Floating rate home loans for individuals may not attract foreclosure charges as per regulatory norms.",
+      "business_loan": "Business loan foreclosure charges depend on contractual agreement."
+    },
+    "prepayment_penalty": {
+      "personal_loan": "Prepayment penalties may apply if part of the loan is repaid before schedule.",
+      "home_loan_fixed": "Fixed rate home loans may attract prepayment charges."
+    },
+    "processing_time": {
+      "personal_loan": "Typically 2–5 working days subject to verification.",
+      "home_loan": "Generally 7–15 working days including property valuation."
+    }
+  },
+
+  "credit_cards": {
+    "late_payment_fee": "Late fees may apply if payment is not received by the due date.",
+    "minimum_due": "Paying only the minimum due avoids late fees but interest continues on remaining balance.",
+    "interest_calculation": "Interest is charged on the outstanding balance if full payment is not made by due date.",
+    "cash_advance": "Cash advances attract finance charges from the withdrawal date."
+  },
+
+  "accounts": {
+    "minimum_balance": "Certain accounts require maintaining a minimum balance as per bank policy.",
+    "overdraft": "Overdraft allows withdrawal beyond available balance up to approved limit.",
+    "account_freeze": "Accounts may be frozen due to compliance checks or suspicious activity."
+  },
+
+  "insurance": {
+    "term_insurance": "Provides life coverage for a fixed term at relatively lower premiums.",
+    "health_waiting_period": "Certain claims may not be admissible during the waiting period.",
+    "claim_process": "Claims require documentation and are processed as per insurer guidelines."
+  },
+
+  "security": {
+    "otp": "OTP should never be shared with anyone.",
+    "phishing": "Do not click suspicious links or share confidential information.",
+    "card_loss": "Block lost or stolen cards immediately through official channels."
+  }
+}
