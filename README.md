@@ -100,13 +100,17 @@ Low-temperature generation (0.3) is used to reduce randomness.
 
 📌 Technical Stack
 
-Component	    Technology
-Embeddings	  Sentence Transformers
-Model	        all-mpnet-base-v2
-Local         LLM	Ollama
-SLM Example	  phi3:mini
-Similarity	  Cosine Similarity
-Data Format	  Alpaca
+Embeddings → Sentence Transformers
+
+Model → all-mpnet-base-v2
+
+Local → LLM	Ollama
+
+SLM Example	→ phi3:mini
+
+Similarity → Cosine Similarity
+
+Data Format	→ Alpaca
 
 📌 Project Structure
 
