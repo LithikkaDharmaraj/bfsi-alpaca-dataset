@@ -19,7 +19,7 @@ def flatten_knowledge(data):
 
 
 # Load JSON
-with open("knowledge_base.json", "r") as f:
+with open("../data/knowledge_base.json", "r") as f:
     kb_data = json.load(f)
 
 # Flatten
@@ -34,7 +34,7 @@ model = SentenceTransformer(MODEL_NAME)
 embeddings = model.encode(knowledge_chunks)
 
 # Save
-np.save("knowledge_embeddings.npy", embeddings)
+np.save("../embeddings/knowledge_embeddings.npy", embeddings)
 
 # Save chunks separately
 with open("knowledge_chunks.json", "w") as f:

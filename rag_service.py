@@ -10,7 +10,7 @@ RAG_THRESHOLD = 0.65
 model = SentenceTransformer(MODEL_NAME)
 
 # Load embeddings once
-knowledge_embeddings = np.load("knowledge_embeddings.npy")
+knowledge_embeddings = np.load("embeddings/knowledge_embeddings.npy")
 
 # Load chunks once
 with open("knowledge_chunks.json", "r") as f:

@@ -3,8 +3,8 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # CONFIG
-JSON_FILE = "alpaca_bfsi_sample.json"
-EMBEDDINGS_FILE = "alpaca_embeddings.npy"
+JSON_FILE = "../data/alpaca_bfsi_sample.json"
+EMBEDDINGS_FILE = "../embeddings/alpaca_embeddings.npy"
 METADATA_FILE = "alpaca_metadata.json"
 # MODEL_NAME = "all-MiniLM-L6-v2"   # Small + fast (384 dim)
 MODEL_NAME = "all-mpnet-base-v2"

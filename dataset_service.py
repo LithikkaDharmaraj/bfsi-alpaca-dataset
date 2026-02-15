@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer, util
 
 # config
 MODEL_NAME = "all-mpnet-base-v2"
-EMBEDDINGS_FILE = "alpaca_embeddings.npy"
+EMBEDDINGS_FILE = "embeddings/alpaca_embeddings.npy"
 METADATA_FILE = "alpaca_metadata.json"
 
 model = SentenceTransformer(MODEL_NAME)
